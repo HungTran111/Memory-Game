@@ -1,0 +1,18 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+.tiles {
+    margin: 50px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 20px;
+}
+
+.tile {
+    height: 100px;
+    background: black;
+    border: 5px solid grey;
+    cursor: pointer;
+}
